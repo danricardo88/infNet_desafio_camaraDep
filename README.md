@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# SPA para exibir dados de parlamentares por partido
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um aplicativo de página única (SPA) que permite selecionar um partido político em uma caixa de seleção e, ao selecioná-lo, exibir os dados de todos os seus parlamentares da atual legislatura. Os dados dos partidos e dos parlamentares são obtidos através da API, consumidos em JSON.
 
-## Available Scripts
+## Tecnologias utilizadas
 
-In the project directory, you can run:
+- React.js: para construir a interface do usuário.
+- HTML e CSS: para estilizar a interface do usuário.
+- JavaScript: para manipular os dados da API.
 
-### `npm start`
+## Como usar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone este repositório e execute `npm install` para instalar as dependências. Em seguida, execute `npm start` para iniciar a aplicação.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Arquivos importantes
 
-### `npm test`
+- `PartySelector.js`: componente principal que contém a lógica para selecionar o partido e exibir a lista de parlamentares.
+- `Parliamentarians.js`: componente filho que contém a lógica para obter e exibir a lista de parlamentares do partido selecionado.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Atenção
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este aplicativo depende da disponibilidade da API para funcionar corretamente. Caso haja instabilidade na API, a aplicação pode não funcionar como esperado.
